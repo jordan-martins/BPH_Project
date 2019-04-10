@@ -1,0 +1,8 @@
+Universe = vanilla
+executable = /afs/cern.ch/work/XXXX/XXXX/CMSSW_X_X_X/src/MCFM-8.2/submit.sh
+output                = sub1.$(ClusterId).$(ProcId).out
+error                 = sub1.$(ClusterId).$(ProcId).err
+log                   = sub1.$(ClusterId).log
++JobFlavour = "nextweek"
+getenv=True
+queue 1 
